@@ -24,8 +24,11 @@ Domain Path:    /languages/
         background-color: #fff;
     }
 
-    #bublaki-background-1 {
+    .under-text-line {
 
+    }
+
+    #bublaki-background-1 {
         &:before {
             content: '';
             position: absolute;
@@ -36,6 +39,18 @@ Domain Path:    /languages/
             top: 0;
             left: 0;
             width: 100%;
+        }
+    }
+
+    .left-side-header-absolute-line {
+        &:before {
+            content: '';
+            position: absolute;
+            left: -1150px;
+            width: 100%;
+            height: 35px;
+            background-color: #beee01;
+            border-radius: 40px;
         }
     }
 
