@@ -10,7 +10,18 @@ Domain Path:    /languages/
 */
 /* = Theme customization starts here
 -------------------------------------------------------------- */
-.navbar-nav li a {
-  font-size: 20px !important; }
+.navbar-default {
+  background-color: #fff; }
+
+#bublaki-background-1:before {
+  content: '';
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  height: 500px;
+  background-image: none;
+  top: 0;
+  left: 0;
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
