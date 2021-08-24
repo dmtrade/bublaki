@@ -20,8 +20,16 @@ Domain Path:    /languages/
 // example
 
 
+    header.dark-header .navbar-nav > li > a, header.dark-header .navbar-nav > li > a:hover, .headhesive--clone.dark-header .navbar-nav > li > a, .headhesive--clone.dark-header .navbar-nav > li > a:hover {
+        color: #000 !important;
+    }
+
     .navbar-default {
         background-color: #fff;
+
+        .menu-item {
+
+        }
     }
 
     .under-text-line {

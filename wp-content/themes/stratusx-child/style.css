@@ -10,6 +10,9 @@ Domain Path:    /languages/
 */
 /* = Theme customization starts here
 -------------------------------------------------------------- */
+header.dark-header .navbar-nav > li > a, header.dark-header .navbar-nav > li > a:hover, .headhesive--clone.dark-header .navbar-nav > li > a, .headhesive--clone.dark-header .navbar-nav > li > a:hover {
+  color: #000 !important; }
+
 .navbar-default {
   background-color: #fff; }
 
